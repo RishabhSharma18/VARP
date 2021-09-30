@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="files">
+    <file>resorce.rec/start.jpg</file>
+    <file>resorce.rec/exit.qrc.jfif</file>
+    <file>resorce.rec/download.jfif</file>
+    <file>resorce.rec/center2.gif</file>
+    <file>resorce.rec/center.gif</file>
+    <file>resorce.rec/bar.jpg</file>
+    <file>resorce.rec/background1.jpg</file>
+  </qresource>
+</RCC>

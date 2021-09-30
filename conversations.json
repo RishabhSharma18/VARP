@@ -1,0 +1,135 @@
+{"intents": [
+        {"tag": "start",
+         "patterns": ["hello ", "Hi there", "hola", "sup"],
+         "responses": ["Good to see you again sir", "Helloee sir", "On your service sir"],
+         "context": [""]
+        },
+        {"tag": "greeting",
+         "patterns": [""],
+         "responses": ["pue", "das", "stem  ","run"],
+         "context": [""]
+        },
+         {"tag": "inquire_wellbeing",
+         "patterns": ["How are you?","How's Your day"],
+         "responses": ["All set for work sir","It's quite busy","I am fine,Thank you! for asking","I am doing well, what about You?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "bye bye sir","I have got to get going sir ","I am off sir","Have a good day!","Nice talking to you, too"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me","Amazing"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure","For you,anytime sir"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?"],
+         "responses": ["I can help you with anything", "You say, I do sir" , "Anything you need sir","Up for everything sir"],
+         "context": [""]
+        },
+        {"tag": "open_search",
+             "patterns": ["Search google", "open google", "Open youtube","Anything we got on google about this?" ],
+         "responses": ["Here we go sir","As you wish sir","On the Way!", "sure sir","opening sir"],
+         "context": [""]
+        },
+
+       {"tag": "repeat",
+         "patterns": ["Can u repeat?","Can you say that again?","Sorry,I didn't get you, Please repeat","Pardon"],
+         "responses": ["Yes,sure","Definitely i can do that","Yes,I will repeat"],
+         "context": [""]
+        },
+       {"tag": "location",
+         "patterns": ["Tell me my current location?","Where i am now?"],
+         "responses": ["Opening location setting","It's India","You are in India"],
+         "context": [""]
+        },
+        {"tag": "time",
+         "patterns": ["What's the time now?","Tell me the current time"],
+         "responses": ["Here we go sir","As you wish sir","On the Way!", "sure sir","Now the time is","Opening google time","Opening local time"],
+         "context": [""]
+        },
+        {"tag": "appointment status",
+         "patterns": ["Is my appointment fixed?","Do I have an appointment today?"],
+         "responses": ["Yes","NO! Not Yet"],
+         "context": [""]
+        },
+        {"tag": "calender",
+         "patterns": ["What's a date today?","Tell me the current date and day","Which month is this","What is the day today?"],
+         "responses": ["Here we go sir","As you wish sir","On the Way!", "sure sir","Opening local date","the month is","Today Is","Today it is"],
+         "context": [""]
+        },
+         {"tag": "name",
+         "patterns": ["What's Your name?","Please introduce yourself","what should I call you?"],
+         "responses": ["Did i forgot to introduce myself? My name is VARP sir","Virtual assistant running on python sir"],
+         "context": [""]
+        },
+
+          {"tag": "email_id",
+          "patterns":["abx@gmail.com","abc@kiit.ac.in"],
+          "responses":["Link has been shared.Please change your password"],
+           "context": [""]
+        },
+        {"tag": "weather",
+         "patterns": ["How's the weather today?"],
+         "responses": ["It seems pleasent, Here are the details","searching sir","Here we go sir","As you wish sir","On the Way!", "sure sir"],
+         "context": [""]
+        },
+        {"tag": "Traffic",
+         "patterns": ["Give me the information about trafic","How's the traffic today"],
+         "responses": ["In your locality taffic is","Checking Your location","Here are your details"],
+         "context": [""]
+        },
+        {"tag": "reminder",
+         "patterns": ["Is there any reminder for today?","IS there any event today","Is there any due date for assignment?","Set a reminder"],
+         "responses": ["Yes,Today's is the due date for","NO! Not Yet","Yes"],
+         "context": [""]
+        },
+       {"tag": "bore",
+         "patterns": ["Can u do something to make me laugh?","tell me a joke","i am getting bored, tell me something funny"],
+         "responses": ["here is a joke, Why  are football stadium so cool? because every seat has a fan in it.","where do frog keep there money? the river bank","yes! sure"],
+         "context": [""]
+        },
+     {"tag": "facts",
+         "patterns": ["surprise me","tell me any fun fact"],
+         "responses": ["The strongest muscle in the body is the tongue.","Coca-Cola was originally green","Carrots weren't always orange: they were once exclusively purple."],
+         "context": [""]
+        },
+     {"tag": "emotion",
+         "patterns": ["Do you have emotions?","can u cry"],
+         "responses": ["i have lots of emotions, i feel happy when i can help","yes,i feel excited when i learn something new","i feel like i have emotions","only digital tears of joy.when we are talking"],
+         "context": [""]
+        },
+        {"tag": "song",
+         "patterns": ["play music","sing a song for me","play song"],
+         "responses": ["which song do you want to listen?","yes sir, i am searching","opening youtube"],
+         "context": [""]
+        },
+         {"tag": "invalid",
+         "patterns": ["Marry me","I love You","date me","chat with me"],
+         "responses": ["Please ask a valid question."],
+         "context": [""]
+        },
+
+     {"tag": "noresponse",
+         "patterns": [" "],
+         "responses": [" "],
+         "context": [""]
+        },
+
+
+
+
+         {"tag": "about",
+         "patterns": ["how you doing?","how are you"],
+         "responses": ["Thanks For Asking!How can I help you?"],
+         "context": [""]
+        }
+
+
+
+
+
+   ]
+}
